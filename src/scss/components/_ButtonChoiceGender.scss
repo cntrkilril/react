@@ -1,0 +1,40 @@
+.ButtonChoiceGenderBlock
+{
+  outline: none;
+  border: 2px solid #80CFCE;
+  border-radius: 30px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-left: 37px;
+  padding-right: 37px;
+  &__text
+  {
+    font-family: 'Golos', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    &-active
+    {
+      color: white;
+    }
+    &-nonactive
+    {
+      color: black;
+    }
+  }
+}
+
+.ButtonChoiceGenderBlock-active {
+  background-color: #80CFCE;
+}
+
+.ButtonChoiceGenderBlock-nonactive {
+  background-color: white;
+}
